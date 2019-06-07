@@ -30,7 +30,7 @@ h1 {
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
-    color: #E91C1C;
+    color: brown;
 	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
 
@@ -73,7 +73,7 @@ p {
 }
 
 .heading-padding {
-    padding-bottom: 40px;
+    padding-bottom: 120px;
 }
 
 section {
@@ -117,9 +117,7 @@ section {
 	height: 100%;
 	width: 100%;
 	position: absolute;
-	/* This ensures that the images cannot 
-	   render outside of their container 
-	   without forcing any scrollbars*/
+	
 	overflow: hidden;
 	top: 0;
 	left: 0;
@@ -135,25 +133,29 @@ section {
 	/* position: absolute; */ /* to the top edge of the screen */
 	width: 100%;
 	position: fixed;
+	
 	z-index: 100;
+	padding: 10px;
 	/*background-color: rgba(255, 255, 255, 0.5);*/
 }
+
+
 
 /*=======================================
   HOME SECTION STYLES
   =======================================*/
 #home {
-	background: url(/css/fire-dragon.jpg) no-repeat 50% 50%;
+	background: url(/css/Background.jpg) no-repeat 50% 50%;
 	background-attachment: fixed;
-	-webkit-background-size: cover;
+	/* -webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;
+	-o-background-size: cover; */
 	background-size: cover;
 	width: 100%;
 	display: block;
 	height: auto;
-	padding-top: 350px; /* This is spacer before the Main title Logo */
-	padding-bottom: 500px; /* This is spacer after the Main title Logo */
+	padding-top: 350px; 
+	padding-bottom: 500px; 
 	color: #fff;
 }
 
@@ -197,7 +199,7 @@ section {
 	padding: 10px;
 	border-radius: 8px;
 	margin: 0px auto;
-	background-color: rgba(100,65,0,.3);
+	background-color: brown;
 	box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
 }
 
@@ -277,7 +279,7 @@ section {
 }
 
 .reservation input[type="text"]:hover {
-	box-shadow: 0 0 18px rgba(100,65,0,.8);
+	box-shadow: 0 0 18px black;
 }
 
 .form-spacer {
@@ -335,6 +337,11 @@ section {
 	color: #000;
 	background-color: #8D8E8F;
 	box-shadow: inset 1px 2px 15px 0 rgba(0,0,0,0.5);
+}
+
+span {
+	padding: 20px;
+	margin: 20px;
 }
 
 /*=======================================
